@@ -1,0 +1,67 @@
+@media only screen and (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .ceo-message-text,
+  .testimonial-slider .testimonie-text {
+    font-size: 24px;
+  }
+
+  .extended-feature-content {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .section-heading h1 br,
+  .section-heading h2 br,
+  .section-heading h3 br,
+  .section-heading h4 br,
+  .section-heading h5 br,
+  .section-heading h6 br {
+    display: none;
+  }
+
+  .ceo-message-text,
+  .testimonial-slider .testimonie-text {
+    font-weight: normal; 
+  }
+
+  .site-banner {
+    padding-top: 130px;
+    padding-bottom: 50px;
+  }
+
+  .banner-heading {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ceo-message-text,
+  .testimonial-slider .testimonie-text {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .banner-download-buttons a {
+    width: 50%;
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+
+  .banner-download-buttons a img {
+    width: 100%;
+  }
+
+  .contact-form .submit-wrap button {
+    width: 100%;
+  }
+}
